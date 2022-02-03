@@ -1,0 +1,225 @@
+/* start global */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 77%;
+    margin: auto;
+}
+@media (max-width: 991px) {
+    .container {
+        width: 95%;
+    }
+}
+body {
+    font-family: 'Overpass', sans-serif;
+}
+/* end global */
+/* start header */
+header {
+    height: 580px;
+    background-size: cover !important;
+    background-position: center;
+    position: relative;
+}
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+}
+/* start nav */
+nav {
+    padding: 35px 0px;
+    font-weight: 500;
+    font-weight: bold;
+}
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .container ul {
+    list-style-type: none;
+}
+@media (max-width:992px) {
+    nav .container ul {
+        display: none;
+    }
+    nav .container {
+        justify-content: center;
+    }
+}
+nav .container ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+nav .container ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+nav .container ul li:last-child {
+    margin-right: 0px;
+}
+nav .container ul li:last-child a {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 13px 20px;
+}
+/* end nav */
+/* start welcom */
+header .welcom {
+    text-align: center;
+    padding: 110px 0px;
+}
+@media (max-width:991px) {
+    header .welcom {
+        padding: 50px 0px;
+    }
+}
+header .welcom h1 {
+    font-weight: bold;
+    font-size: 72px;
+    margin-bottom: 30px;
+    color: white;
+}
+header .welcom p {
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 60px;
+}
+header .welcom a {
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(90,185,99);
+    border-radius: 5px;
+}
+
+/* end welcom */
+/* start header */
+/* start sec1 */
+.sec1 {
+    padding: 120px 0px;
+}
+.sec1 h1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+.sec1 p {
+    color: #b3b3b3;
+    font-weight: lighter;
+    font-size: 24px;
+    width: 85%;
+    margin-bottom: 95px;
+}
+@media (max-width: 991px) {
+    .sec1 p {
+        margin-bottom: 44px;
+    }
+}
+.sec1 p span {
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+.sec1 .boxes {
+    display: flex;
+    justify-content: space-between;
+}
+.sec1 .boxes .box {
+    width: 30%;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+    padding: 50px 40px;
+}
+@media (max-width: 991px) {
+    .sec1 .boxes {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sec1 .boxes .box {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .sec1 .boxes .box:last-child {
+        margin-bottom: 0px;
+    }
+}
+.sec1 .boxes .box img {
+    margin-bottom: 30px;
+}
+.sec1 .boxes .box h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.sec1 .boxes .box p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #999999;
+    width: 88%;
+}
+/* end sec1 */
+/* start sec2 */
+.sec2 .container {
+    text-align: center;
+}
+.sec2 .container .imag {
+    height: 720px; 
+    margin: auto;
+    margin-bottom: 125px;
+    background-size: cover !important;
+}
+@media (max-width: 991px) {
+    .sec2 .container .imag {
+        /* height: 300px; */
+        margin-bottom: 65px;
+    }
+}
+@media (max-width: 1199px) {
+    .sec2 .container .imag {
+        height: 50%;
+        margin-bottom: 65px;
+    }
+}
+.sec2 .container div:last-child {
+    margin: auto;
+    text-align: center;
+    width: 65%;
+    margin-bottom: 120px;
+}
+@media (max-width:991px) {
+    .sec2 .container div:last-child {
+        width: 80%;
+    }
+}
+.sec2 .container div:last-child p {
+    color: #b3b3b3;
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.sec2 .container div p span {
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+.sec2 .container div a {
+    font-size: 12px;
+    color: #5ab963;
+    text-decoration: none;
+}
+/* end sec2 */
+/* start dividing line */
+.dividingline {
+    height: 1px;
+    background-color: #e6e6e6;
+}
+/* end dividing line */
